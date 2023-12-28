@@ -1,0 +1,167 @@
+
+/* sửa phần main, nội dung */
+.film_title_main{ 
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.film_title_main h1{
+    display: inline;
+    font-size: 23px;
+    color: #03599d;
+}
+.film_title_main h1 a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+}
+.film_title_main > span{
+    font-size: 22px;
+    color: black;
+}
+.body_main_content{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.picture_banner{
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.banner-film{
+    width: 280px;
+    height: 100%;
+    border-radius: 10px;
+    border: solid 2px #fff;
+}
+
+.div-mtd{
+    display: flex;
+    > div{
+        font-size: 18px;
+    }
+}
+.title-film{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text-film{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 5px;
+}
+.row{
+    width: 100%;
+}
+.col-left{
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.col-right{
+    font-size: 18px;
+}
+
+.button-part{
+    display: flex;
+}
+.button-content {
+    height: 43px;
+    font-size: 14px;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #0d3347;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 16px;
+}
+.button-content:hover{
+    background-color: rgb(237, 237, 237);
+    color: #0d3347;
+}
+.mt-3 > button{
+    height: 43px;
+    font-size: 16px;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    background-color: #0d3347;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.mt-3 > button:hover{
+    background-color: rgb(237, 237, 237);
+    color: #0d3347;
+}
+.modal{
+    > .modal-dialog{
+        > .modal-content{
+            .modal-body{
+                > h1{
+                    text-align: center;
+                    color: rgb(0, 0, 0);
+                    font-size: 22px;
+                }
+                > .choose-cinema{
+                    text-align: center;
+                    
+                }
+            }
+            .modal-footer{
+                margin-top: 20px;
+                > a{
+                    margin: 0 auto; 
+                    > button{
+                        background-color: #337ab7;
+                        color: white;
+                        height: 40px;
+                        width: 120px;
+                        border-radius: 10px;
+                        border: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* sửa phần trailer */
+.trailer_container{
+    background-color: #3c3e4d;
+    margin-top: 200px;
+    height: 800px;
+    margin-bottom: 200px;
+}
+.trailer_container h1{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+.trailer_title_film{
+    margin-bottom: 50px;
+}
+.video_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.video_trailer_vid { 
+    border: #fff solid 2px;
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+}
+
